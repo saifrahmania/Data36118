@@ -1,0 +1,44 @@
+,
+Australian Skills Classification ,
+Version 3.0 - current at December 2023 - updated data may be available,
+Index,
+Glossary,Explanation of key terms used in this dataset.
+Occupation descriptions,"ANZSCO Occupation codes and descriptions.
+Sub-profile codes refer to whether an occupation is a specialisation of an occupation, or is an occupation in a not elsewhere classified (nec) category. Further information can be found in the Glossary tab."
+Core competency descriptions,"Descriptions for each core competency, and the definition of each core competency anchor value."
+Core competencies data,List of 10 core competencies and their respective proficiency scores and levels for each occupation.
+Specialist task hierarchy,"List of specialist tasks present in the Australian Skills Classification and their respective Specialist Clusters and Cluster Families. The skills hierarchy shows how skills are related and connected to one another, and illustrates the transferability of skills across occupations.   "
+Specialist task data,"Specialist Tasks and indicative time spent on that task for each occupation.
+Sub-profile codes refer to whether an occupation is a specialisation of an occupation, or is an occupation in a not elsewhere classified (nec) category. Further information can be found in the Glossary tab."
+Technology tools hierarchy,List of the technology tools present in the Australian Skills Classification and descriptions for each of them.
+Technology tools,"Highly specialised and occupation-specific technology tools used within each occupation. Common technology tools, (such as search engines and email,) are featured across most occupations, and these are captured in the core competency of digital engagement, rather than under this section.
+Sub-profile codes refer to whether an occupation is a specialisation of an occupation, or is an occupation in a not elsewhere classified (nec) category. Further information can be found in the Glossary tab."
+Appendix - tech tool examples,"For each technology tool, examples of that tool that are used in Australia are provided."
+Appendix - common tech tools,"List of technology tools that are so universal today that they are likely to be used by most or all occupations, and these are listed here."
+,
+,
+Australian Skills Classification,
+"The Australian Skills Classification (ASC) is a product of Jobs and Skills Australia, within the Commonwealth of Australia. ",
+,
+"With the exception of the Commonwealth Coat of Arms, any images or photographs, any material protected by a trade mark and where otherwise noted, the content of the ASC is licensed under the Creative Commons Attribution 4.0 International Licence, CC BY 4.0 licence. Please note that this CC BY licence includes a disclaimer of warranties and liabilities in favour of the Commonwealth of Australia. ",
+,
+,
+"The ASC includes information from the following entities. The JSA has modified some or all of this information, and the following entities have not approved, endorsed or tested these modifications: ",
+"·         O*NET Resource Centre – ie O*NET 21.2 Database and O*NET 23.1 Database – by the U.S Department of Labor, Employment and Training Administration (USDOL/ETA), used under the CC BY 4.0 license. O*NET® is a trademark of USDOL/ETA""",
+"·         Australian Bureau of Statistics, within the Commonwealth of Australia, used under the CC BY 4.0 license",
+The JSA used data records provided by Lightcast in the preparation of the ASC.,
+,
+Jobs and Skills Australia supports and encourages the dissemination and exchange of information provided in the ASC.,
+,
+"Use of, including to copy, redistribute, remix, transform, or build upon, all or any part of the ASC must include one of the following attributions:",
+Minimum requirement:,
+"Australian Skills Classification, Jobs and Skills Australia, Commonwealth of Australia. Used under Creative Commons BY 4.0 licence.",
+,
+"However, we would prefer that you use one of the following two options:",
+,
+If you use all or part of the Australian Skills Classification verbatim:,
+"This [document/website/app] includes content of the Australian Skills Classification by Jobs and Skills Australia, Commonwealth of Australia. Used under CC BY 4.0 licence.",
+,
+If you make edits or additions to the Australian Skills Classification:,
+"This [document/website/app] includes content derived from the Australian Skills Classification by Jobs and Skills Australia, Commonwealth of Australia. Used under CC BY 4.0 licence.",
+"[Your name or company] has modified all or some of this content, and Jobs and Skills Australia has not approved, endorsed or tested the modified content.",
