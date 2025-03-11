@@ -37,7 +37,7 @@ print("First Few Rows:\n", data.head())
 Analyzing **Top 20 Most Frequent Words** from the dataset to get an idea about the most common words that are used in the dataset we can find the highlights of the important emphasis within the job rolesand skills descriptions. Words like  "ensure" (12,778 occurrences) and "equipment" (12,227 occurrences) reflect a significant focus on compliance, safety, and operational standards in technical fields. Similarly, "relevant," "information," and "requirements" are also appeared inthe dataset quite frequently and that shows the coherence and regularity across the industries. Some other terms such as "data" and "technical" also provide a significant importance on the growing needs of the digitan proficiencies and technical sills but thse vocabularies are not the only things where we should give our focus on the upcomin job markets
 It can be considered as a suggestion that can be used to predict the future job market trends but not considering as the only factor to predict the future job market trends. 
 ```markdown
-![Top 20 Most Frequent Bigrams in skills Descriptions](figs/Word_cloud_Most_frequently_used_words.png)
+![Top 20 Most Frequent Bigrams in skills Descriptions](https://github.com/saifrahmania/Data36118/blob/083030f7c8ef7190785dbf58bec071f2cf262d6b/Assignment1/figs/Top%2020%20Most%20Frequent%20Trigrams%20in%20Skills%20Descriptions.png)
 ```
 
 
