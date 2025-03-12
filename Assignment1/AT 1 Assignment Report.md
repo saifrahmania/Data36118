@@ -71,7 +71,7 @@ from the given bigram and trigram network graph we can we will also get a clear 
 From the bargraph and the box plot we can also notice that most skill descriptions in the dataset contain between 25 and 40 words. While there are descriptions that are shorter or longer, these are less common. A very small number of descriptions are unusually long (over 80 words) which can be considered outliers based on the length of the descriptions.
 ![Bar plot of the length of skill descriptions](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/bar%20graph%20description%20length.png)
 *Figure 7: Bar chart of the length of skill descriptions in the dataset.*
-![Box plot of the length of skill descriptions](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/box%20plot%20description%20length.png)<br>
+![Box plot of the length of skill descriptions](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/box%20plot%20description%20length.png)
 *Figure 8: Box plot of the length of skill descriptions in the dataset.*
 
 ## 2.4 Dependency Tree
@@ -97,7 +97,7 @@ The silhouette analysis for KMeans clustering with cluster counts ranging from 2
 *Figure 14: Silhouette analysis for KMeans clustering with 4 clusters.*
 ![Silhouette Analysis for Cluster 5](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/Silhouette%20analysis%20for%20KMeans%20clustering%205.png)
 *Figure 15: Silhouette analysis for KMeans clustering with 5 clusters.*
-![Distribution Cluster](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/Distribution%20of%20Clusters.png)
+![Distribution Cluster](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/Distribution%20of%20Clusters.png)<br>
 *Figure 17: Distribution of Clusters*
 
 
