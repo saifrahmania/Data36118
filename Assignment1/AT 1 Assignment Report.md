@@ -107,7 +107,7 @@ The LDA model shows five most import themes such as interpersonal and organizati
 These are critical for merging programs or difing the job roles within organizations. The detailed topic words from LDA such as 'activities,' 'staff,' and 'provide' for organizational skills, or 'order,' 'data,' and 'materials' for operational aspects, offer a granular view of the dataset's focus, that explains the  strategic planning and educational alignment to industry needs in a wider manner.
 ## 3.2 Sentiment Analysis
 While doing the analysis  it has been found that there is a pattern in the dataset and this relationship can be relationship into a histogram 
-![Sentiment Analysis](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/sentiment%20analysis.png)
+![Sentiment Analysis](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/sentiment%20analysis.png)<br>
 *Figure 18: Sentiment analysis of the dataset.*
 
 Here are the findings that can be found in the graph:
