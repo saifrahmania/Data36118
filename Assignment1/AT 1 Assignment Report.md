@@ -38,22 +38,89 @@ Analyzing **Top 20 Most Frequent Words** from the dataset to get an idea about t
 It can be considered as a suggestion that can be used to predict the future job market trends but not considering as the only factor to predict the future job market trends. 
 
 ![Top 20 Most Frequent used words](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/Bar%20frequently%20used%20words.png)
+*Figure 1: Bar chart of the top 20 most frequently used words in the dataset.*
 
 
 
 
 
-```python
+
 ## 2.2 Name Entity Recognition
 ## 2.3 N-Grams
+From the Top 20 Most common or frequently used we also can find several insights that can help us the to predict the upcoming most common or significantly important professions in the upcoming job markets. Motst frequent used bigrams such as **"health safety"** and **"technical knowledge "** give us the strong messasge that in future the job market will also experience a significant dominance by the health and safety professionals and the technical knowledge will be the most important skill that will be required in the upcoming job markets. Similarly, most frequent used trigrams such as **"specialist technical knowledge"** and **"work health safety"**confirm the with demand of people who have highly specialized skills the work health and safety professionals will be in high demand in the upcoming job markets.
+
+![Top 20 Most Frequent Bigrams](https://github.com/saifrahmania/Data36118/blob/083030f7c8ef7190785dbf58bec071f2cf262d6b/Assignment1/figs/Top%2020%20Most%20Frequent%20Bigrams%20in%20skills%20Descriptions.png)
+*Figure 2: Bar chart of the top 20 most frequently used bigrams in the dataset.*
+
+These patterns depict that industries such as healthcare, engineering, and constriction are extremely prioritizing the health and safety standards of their employees and there might be a probability that skilled workers  who also have the significant knowledge about work health and safety knowledge will be highly in demand in the upcoming job markets. The emphasis on terms related to project management and protective equipment also suggests that the roles demand not only the expertise but also the the ability to manage and lead projects with safety and efficiency.
+
+![Top 20 Most Frequent Trigrams](https://github.com/saifrahmania/Data36118/blob/083030f7c8ef7190785dbf58bec071f2cf262d6b/Assignment1/figs/Top%2020%20Most%20Frequent%20Trigrams%20in%20Skills%20Descriptions.png)
+*Figure 3: Bar chart of the top 20 most frequently used trigrams in the dataset.*
+
+So, it can be said that n-gram analysis helped us with very important informations or knowledges that can be used to predict the future job market trends.
+
+![Most frequently used wordcloud](https://github.com/saifrahmania/Data36118/blob/932ad7542064564a7f58facbfa392991f5ef2088/Assignment1/figs/Word%20cloud%20Mot%20frequently%20used%20wordcloud.png)
+*Figure 4: Word cloud of the most frequently used words in the dataset.*
+
+from the given bigram and trigram network graph we can we will also get a clear idea about the most common and frequently used words in the dataset and the most common and frequently used words in the dataset are the most important words that can be used to predict the future job market trends.
+
+![Most frequently used bigram network graph](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/bigram%20network%20graph.png)
+*Figure 5: Network graph of the most frequently used bigrams in the dataset.*
+![Most frequently used trigram network graph](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/trigram%20network%20graph.png)
+*Figure 6: Network graph of the most frequently used trigrams in the dataset.*
+![Top 20 Bigram](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/top%2020%20bigram.png)
+*Figure 16: Top 20 Most Used Bigram*
+
+From the bargraph and the box plot we can also notice that most skill descriptions in the dataset contain between 25 and 40 words. While there are descriptions that are shorter or longer, these are less common. A very small number of descriptions are unusually long (over 80 words) which can be considered outliers based on the length of the descriptions.
+![Bar plot of the length of skill descriptions](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/bar%20graph%20description%20length.png)
+*Figure 7: Bar chart of the length of skill descriptions in the dataset.*
+![Box plot of t*he length of skill descriptions](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/box%20plot%20description%20length.png)
+*Figure 8: Box plot of the length of skill descriptions in the dataset.*
+
 ## 2.4 Dependency Tree
-## 2.5 TF-IDF
-## 2.6 Similarity
+## 2.5 TF-IDF and Similarity
+
+The analysis using TF-IDF vectorization, cosine similarity, and Latent Dirichlet Allocation (LDA) on the dataset shows the structural and thematic similarities within the text data of the **ANZCO Descriptions** column. The TF-IDF vectorization displays the importance of words by their constant use and uniqueness, revealing key terms such as 'equipment,' 'information,' and 'requirements' that are central to the dataset. The cosine similarity matrix, which shows varied similarity scores such as 1.0 for identical comparisons and lower scores like 0.092 for documents with less similaity, and from these insights we can determine how closely related different documents are which help us while groupings with most similar fields or similarities in content focus. 
+![TF-IDF Score Distribution](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/TFIDF%20Score%20distribution.png)
+*Figure 9: Distribution of TF-IDF scores for the dataset.*
+![TF-IDF Scatterplot](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/TFIDF%20Score%20scatter%20plot.png)
+*Figure 10: Scatter plot of TF-IDF scores for the dataset.*
+
+![TF-IDF Cosin Similarity Index](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/TFIDf%20cosin%20similarity%20idx.png)
+*Figure 11: Cosine similarity matrix for the dataset.*
+
+
 ## 2.7 Clustering
+The silhouette analysis for KMeans clustering with cluster counts ranging from 2 to 5 shows different levels of cluster quality. At two clusters, the silhouette plot shows significant overlap and do not fit properly, as indicated by a mix of positive and negative silhouette scores, suggesting weak cluster definitions. Adding a third cluster improves the separation and decreases the number of negative scores, though a minor amount of  overlaps still exist. Four clusters offer more defined clustering with two clusters achieving higher silhouette scores but still featuring some misfit within one cluster. Expanding to five clusters does not necessarily enhance clarity but increases variability, with some clusters showing tight groupings and others mixed or negative values. This analysis suggests that three or four clusters may offer the most balanced clustering, minimizing misclassification while avoiding overfitting.
+![Silhouette Analysis for Cluster 2](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/Silhouette%20analysis%20for%20KMeans%20clustering%202.png)
+*Figure 12: Silhouette analysis for KMeans clustering with 2 clusters.*
+![Silhouette Analysis for Cluster 3](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/Silhouette%20analysis%20for%20KMeans%20clustering%203.png)
+*Figure 13: Silhouette analysis for KMeans clustering with 3 clusters.*
+![Silhouette Analysis for Cluster 4](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/Silhouette%20analysis%20for%20KMeans%20clustering%204.png)
+*Figure 14: Silhouette analysis for KMeans clustering with 4 clusters.*
+![Silhouette Analysis for Cluster 5](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/Silhouette%20analysis%20for%20KMeans%20clustering%205.png)
+*Figure 15: Silhouette analysis for KMeans clustering with 5 clusters.*
+![Distribution Cluster](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/Distribution%20of%20Clusters.png)
+*Figure 17: Distribution of Clusters*
+
 
 # 3. Language Modeling 
 ## 3.1 Topic Model
+The LDA model shows five most import themes such as interpersonal and organizational skills, operational and procedural nuances, medical and regulatory details, technical and safety requirements, and business and financial management. These themes dipict different skill sets and knowledge areas and their relationship can be found in the dataset from technical proficiencies to compliance and interpersonal abilities.
+These are critical for merging programs or difing the job roles within organizations. The detailed topic words from LDA such as 'activities,' 'staff,' and 'provide' for organizational skills, or 'order,' 'data,' and 'materials' for operational aspects, offer a granular view of the dataset's focus, that explains the  strategic planning and educational alignment to industry needs in a wider manner.
 ## 3.2 Sentiment Analysis
+While doing the analysis  it has been found that there is a pattern in the dataset and this relationship can be relationship into a histogram 
+![Sentiment Analysis](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/sentiment%20analysis.png)
+*Figure 18: Sentiment analysis of the dataset.*
+
+Here are the findings that can be found in the graph:
+
+- Certral Tendency: Most of the sentiments are concentrated around zero, along with the neutrality,  with the most entries (13,976) between -0.02 and 0.02.
+- Negative Sentiment: Negative sentiments are less common and range from -0.50 to -0.10, i.e., the bin from -0.14 to -0.10 has 1,761 entries, suggesting a presence of mild negative sentiments.
+- Positive Sentiment: The variaty of positive sentiment are also visible but not as extreme as the other sentiment, such as, the bin from 0.10 to 0.14 has 1,098 entries, showing moderate positivity, extending up to a maximum of 0.70 with decreasing frequency.
+- Sentiment Extremes: Extreme positive and negative sentiment are quite rare, which mostly visible to neutral and mild sentiments
+- Skewness and Depression: The distribution is  centered with a slight skew towards positive sentiments, particularlywith the higher positive scores such as 0.50 to 0.54 with 425 entries.
+
 ## 3.3 Top Words by Topic
 ## 3.4 Topic Coherence
 
