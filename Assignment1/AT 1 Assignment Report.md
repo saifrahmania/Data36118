@@ -42,9 +42,6 @@ It can be considered as a suggestion that can be used to predict the future job 
 
 
 
-
-
-
 ## 2.2 Name Entity Recognition
 ## 2.3 N-Grams
 From the Top 20 Most common or frequently used we also can find several insights that can help us the to predict the upcoming most common or significantly important professions in the upcoming job markets. Motst frequent used bigrams such as **"health safety"** and **"technical knowledge "** give us the strong messasge that in future the job market will also experience a significant dominance by the health and safety professionals and the technical knowledge will be the most important skill that will be required in the upcoming job markets. Similarly, most frequent used trigrams such as **"specialist technical knowledge"** and **"work health safety"**confirm the with demand of people who have highly specialized skills the work health and safety professionals will be in high demand in the upcoming job markets.
@@ -74,7 +71,7 @@ from the given bigram and trigram network graph we can we will also get a clear 
 From the bargraph and the box plot we can also notice that most skill descriptions in the dataset contain between 25 and 40 words. While there are descriptions that are shorter or longer, these are less common. A very small number of descriptions are unusually long (over 80 words) which can be considered outliers based on the length of the descriptions.
 ![Bar plot of the length of skill descriptions](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/bar%20graph%20description%20length.png)
 *Figure 7: Bar chart of the length of skill descriptions in the dataset.*
-![Box plot of t*he length of skill descriptions](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/box%20plot%20description%20length.png)
+![Box plot of the length of skill descriptions](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/box%20plot%20description%20length.png)<br>
 *Figure 8: Box plot of the length of skill descriptions in the dataset.*
 
 ## 2.4 Dependency Tree
@@ -90,7 +87,7 @@ The analysis using TF-IDF vectorization, cosine similarity, and Latent Dirichlet
 *Figure 11: Cosine similarity matrix for the dataset.*
 
 
-## 2.7 Clustering
+## 2.6 Clustering
 The silhouette analysis for KMeans clustering with cluster counts ranging from 2 to 5 shows different levels of cluster quality. At two clusters, the silhouette plot shows significant overlap and do not fit properly, as indicated by a mix of positive and negative silhouette scores, suggesting weak cluster definitions. Adding a third cluster improves the separation and decreases the number of negative scores, though a minor amount of  overlaps still exist. Four clusters offer more defined clustering with two clusters achieving higher silhouette scores but still featuring some misfit within one cluster. Expanding to five clusters does not necessarily enhance clarity but increases variability, with some clusters showing tight groupings and others mixed or negative values. This analysis suggests that three or four clusters may offer the most balanced clustering, minimizing misclassification while avoiding overfitting.
 ![Silhouette Analysis for Cluster 2](https://github.com/saifrahmania/Data36118/blob/main/Assignment1/figs/Silhouette%20analysis%20for%20KMeans%20clustering%202.png)
 *Figure 12: Silhouette analysis for KMeans clustering with 2 clusters.*
